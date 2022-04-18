@@ -1,1 +1,26 @@
-// TODO
+.Container {
+  img {
+    max-height: 400px;
+    width: 100%;
+  }
+}
+.Content {
+  max-width: 700px;
+  margin: 0 auto;
+  min-width: 238px;
+  margin-top: 2rem;
+  color: var(--heading);
+
+  article {
+    margin-top: 2rem;
+    >div {
+      margin-top: 2rem;
+      
+    }
+  }
+
+  ul > li {
+    display: inline-block;
+  }
+
+}

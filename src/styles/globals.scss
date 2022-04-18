@@ -4,4 +4,33 @@
   padding: 0;
 }
 
-// TODO
+#__next {
+  height: 100%;
+}
+
+:root {
+  --background-color: #1a1d23;
+  --highlight: #ff57b2;
+  --heading: #f8f8f8;
+  --body: #d7d7d7;
+  --info: #bbbbbb;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+body {
+  background: var(--background-color);
+}
+
+@media (max-width: 700px) {
+#__next {
+  margin: 0 auto;
+  padding: 2em ;
+  font-size: 0.9rem;
+}
+}
